@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: #8D4BA4;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 27.5rem;
+    width: 40rem;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 5px purple, -10px -10px 20px 5px purple;
+}
+.unoPic{
+    background-image: url(uno.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px 0 0 20px;
+    
+}
+.content{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    
+}
+h4{
+    margin: 0.5rem 0 0.5rem 1rem;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    font-size: 2rem;
+    margin: 0 0 1rem 1rem;
+    font-family:sans-serif;
+    font-weight: 700;
+}
+.description{
+    margin: 0 1.5rem 1rem 1rem;
+    font-size: 0.8rem;
+    font-family: serif;
+}
+.price{
+    margin: 2rem 0 1.5rem 1rem;
+}
+#now{
+    font-size: 2.2rem;
+    color: green; 
+    font-weight: 800;
+}
+#prev{
+    margin: 0 0 0 1rem;
+}
+button{
+    margin: 1rem 1.5rem 0 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+}
+#cart{
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+.add{
+    font-weight: 700;
+}
+button:hover{
+    background-color: rgb(66, 229, 66);
+}
+
+
